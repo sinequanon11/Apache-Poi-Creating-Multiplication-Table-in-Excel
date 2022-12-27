@@ -8,16 +8,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class _11_Soru_CarpimTablosu2 {
+public class MultiplicationTable2 {
     public static void main(String[] args) throws IOException {
 
-/** Soru 1:
- *  yeni excel
- *  Çarpım tablosunu excele yazdırınız.
- *  1 x 1 = 1 şeklinde işaretleri de yazdırınız.
- *  sıfırdan excel oluşturarak.
- *  her bir onluktan sonra 1 satır boşluk bırakarak yanyana
- */
         // MULTIPLICATION TABLE - VERSION - 2
 
         XSSFWorkbook workbook = new XSSFWorkbook();
